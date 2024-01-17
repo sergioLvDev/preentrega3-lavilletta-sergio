@@ -1,0 +1,421 @@
+/* Encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 120px;
+}
+
+.encabezado {
+  background-color: #33FFAC;
+  border-top: 10px solid #13B52D;
+
+}
+
+.cesta {
+  width: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 3px;
+  margin: 0;
+}
+
+
+nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav a {
+  font-size: 1rem;
+  font-weight: solid;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.menuNav a:hover {
+  background-color: #13B52D;
+  color: #fafafa;
+  transition: all 0.3ms;
+}
+
+/* Subtitulo */
+
+.subtitulo {
+  background-color: #13B52D;
+  font-weight: bold;
+  padding: 5px;
+  color: #fafafa;
+}
+
+.subtitulo h2 {
+  font-size: 2.5rem;
+}
+
+/* PORTADA QUIENES SOMOS*/
+
+
+h3 {
+  text-align: left;
+  text-decoration: underline;
+  margin: 20px;
+  font-size: 30px;
+}
+
+
+.contImg1 {
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgCondi {
+  width: 100%;
+  height: 100%;
+}
+
+.contImg1 p {
+  background-color: #33FFAC;
+  color: black;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.imgPrin1 {
+  width: 100%;
+  height: min-content;
+
+}
+
+/* PROMOCIONES */
+
+
+.promoCondi {
+  width: 450px;
+  height: 600px;
+  box-shadow: 3px 3px grey;
+  margin: 10px 20px;
+}
+
+.promoImgp {
+  padding: 20px;
+  max-width: 100%;
+  background-color: #33FFAC;
+  text-transform: uppercase;
+  border: none;
+}
+
+.promoImg {
+  margin: auto;
+  width: 100%;
+  height: 85%;
+  object-fit: contain;
+}
+
+/* PRODUCTOS */
+
+.productos {
+  width: 350px;
+  margin: 10px;
+}
+
+.prodImg {
+  height: 300px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+/* SUCURSALES */
+
+.prin {
+  display: block;
+  margin: 20px;
+}
+
+.sucPrin {
+  display: inline-block;
+  font-size: 25px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+
+iframe {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+
+img {
+  width: 30px;
+}
+
+.sucPrin p {
+  display: inline;
+  font-size: 25px;
+}
+
+/* CONTACTO */
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* BOTONES */
+.botonesForm {
+  display: inline;
+  width: 150px;
+  background-color: #33FFAC;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  border-radius: 3px;
+}
+
+.botonesForm:hover {
+  background-color: #13B52D;
+}
+
+/* FOOTER */
+.logoSlv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+
+footer {
+  border-top: 10px solid #13B52D;
+  border-bottom: 10px solid #13B52D;
+  background-color: #33FFAC;
+}
+
+footer img {
+  width: 50px;
+}
+
+/* LOGO DE WHATSAPP */
+.logwap {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+}
+
+
+/* vista tablet */
+@media (max-width:1023px) {
+
+  /* QUIENES SOMOS */
+  .contCarru {
+    width: 95vw;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contImg1 {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoSlv {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .redes {
+    width: auto;
+  }
+
+  /* SUBTITULO */
+  .subtitulo h2 {
+    font-size: 1.8rem;
+  }
+
+}
+
+/* vista celu */
+@media (max-width:767px) {
+
+  /* ENCABEZADO */
+
+  .cesta {
+    width: 40px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+
+  /* 
+  PROMOCIONES */
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promoCondi {
+    width: 330px;
+    height: 500px;
+    box-shadow: 3px 3px grey;
+    margin: 10px 20px;
+  }
+
+  .promoImg {
+    margin: auto;
+    width: 100%;
+    height: 75%;
+  }
+
+  /* PRODUCTOS */
+  .prodImg {
+    height: 290px;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .productos {
+    width: 340px;
+    margin: 5px;
+  }
+
+  /* BOTONES */
+  .botonesForm {
+    width: 100px;
+  }
+
+  input,
+  textarea {
+    width: 300px;
+  }
+
+  /* SUCURSALES */
+
+  .prin {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sucPrin {
+    width: 100%;
+  }
+
+  iframe {
+    width: 95%;
+  }
+
+
+  /* FOOTER */
+  .pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoSlv {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:480px) {
+
+  /* ENCABEZADO */
+  H1 {
+    font-size: 2.8rem;
+  }
+
+  .cesta {
+    width: 25px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+
+  /* SUBTITULO */
+  .subtitulo h2 {
+    font-size: 1.4rem;
+  }
+
+  /* PROMOCIONES */
+
+  .promoCondi {
+    width: 300px;
+    height: 450px;
+    box-shadow: 3px 3px grey;
+    margin: 10px 20px;
+  }
+
+  .promoImg {
+    margin: auto;
+    width: 100%;
+    height: 75%;
+  }
+
+  /* PRODUCTOS */
+  .prodImg {
+    height: 290px;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .productos {
+    width: 340px;
+    margin: 5px;
+  }
+}
