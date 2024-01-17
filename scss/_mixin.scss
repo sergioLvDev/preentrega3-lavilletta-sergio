@@ -1,0 +1,12 @@
+/* MIXIN */
+@mixin anclas {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@mixin hover {
+  background-color: $color-resaltador;
+  color: $color-fuente-secundario;
+  transition: all 0.3ms;
+}

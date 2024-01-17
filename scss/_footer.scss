@@ -1,0 +1,16 @@
+/* FOOTER */
+.logoSlv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+footer {
+  border-top: 10px solid $color-resaltador;
+  border-bottom: 10px solid $color-resaltador;
+  background-color: $color-fondo;
+
+  img {
+    width: 50px;
+  }
+}

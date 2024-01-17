@@ -1,0 +1,15 @@
+/* BOTONES */
+.botonesForm {
+  display: inline;
+  width: 150px;
+  background-color: $color-fondo;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  color: $color-fuente-primario;
+  border-radius: 3px;
+
+  &:hover {
+    @include hover;
+  }
+}

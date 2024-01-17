@@ -1,0 +1,22 @@
+/* PROMOCIONES */
+.promoCondi {
+  width: 450px;
+  height: 600px;
+  box-shadow: 3px 3px $color-sombras;
+  margin: 10px 20px;
+}
+
+.promoImgp {
+  padding: 20px;
+  max-width: 100%;
+  background-color: $color-fondo;
+  text-transform: uppercase;
+  border: none;
+}
+
+.promoImg {
+  margin: auto;
+  width: 100%;
+  height: 85%;
+  object-fit: contain;
+}
