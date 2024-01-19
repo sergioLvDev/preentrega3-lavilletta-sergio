@@ -4,6 +4,8 @@
 body {
   font-family: "Caveat", cursive;
   font-weight: bold;
+  background-image: url(../img/fondo-hoja.jpg);
+  overflow: hidden;
 }
 
 /* RESET */
@@ -18,7 +20,6 @@ body {
 }
 
 .encabezado {
-  background-color: #33FFAC;
   border-top: 10px solid #13B52D;
 }
 
@@ -70,7 +71,7 @@ a {
 h3 {
   text-align: left;
   text-decoration: underline;
-  margin: 20px;
+  padding: 20px;
   font-size: 30px;
 }
 
@@ -88,7 +89,6 @@ h3 {
 }
 
 .contImg1 p {
-  background-color: #33FFAC;
   color: black;
   font-size: 30px;
   border-radius: 5px;
@@ -138,7 +138,7 @@ h3 {
 /* SUCURSALES */
 .prin {
   display: block;
-  margin: 20px;
+  padding: 20px;
 }
 
 .sucPrin {
@@ -208,7 +208,7 @@ textarea {
   padding: 5px;
   color: black;
   border-radius: 3px;
-  transition: all 2s;
+  transition: all 0.5s;
 }
 .botonesForm:hover {
   background-color: #13B52D;
@@ -225,7 +225,6 @@ textarea {
 footer {
   border-top: 10px solid #13B52D;
   border-bottom: 10px solid #13B52D;
-  background-color: #33FFAC;
 }
 footer img {
   width: 50px;
