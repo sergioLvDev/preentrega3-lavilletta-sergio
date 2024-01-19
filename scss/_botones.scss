@@ -1,4 +1,9 @@
 /* BOTONES */
+.contBotones {
+  display: flex;
+  justify-content: center;
+}
+
 .botonesForm {
   display: inline;
   width: 150px;
@@ -8,8 +13,10 @@
   padding: 5px;
   color: $color-fuente-primario;
   border-radius: 3px;
+  transition: all 2s;
 
   &:hover {
-    @include hover;
+    background-color: $color-resaltador;
+    color: $color-fuente-secundario;
   }
 }

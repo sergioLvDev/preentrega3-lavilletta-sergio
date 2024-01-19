@@ -5,12 +5,6 @@
   font-weight: bold;
 }
 
-@mixin hover {
-  background-color: $color-resaltador;
-  color: $color-fuente-secundario;
-  transition: all 0.3ms;
-}
-
 @mixin contCard {
   width: 300px;
   height: 450px;

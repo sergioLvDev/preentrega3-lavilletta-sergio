@@ -32,9 +32,11 @@ a {
   font-weight: solid;
   border-left: 1px solid $color-fuente-primario;
   border-right: 1px solid $color-fuente-primario;
+  transition: all 1s;
 
   &:hover {
-    @include hover;
+    background-color: $color-resaltador;
+    color: $color-fuente-secundario;
   }
 }
 

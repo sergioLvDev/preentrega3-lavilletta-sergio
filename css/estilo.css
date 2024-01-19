@@ -48,11 +48,11 @@ a {
   font-weight: solid;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  transition: all 1s;
 }
 .menuNav a:hover {
   background-color: #13B52D;
   color: #fafafa;
-  transition: all 0.3ms;
 }
 
 /* SUBTITULO */
@@ -146,7 +146,7 @@ h3 {
   font-size: 25px;
   text-align: left;
   width: 500px;
-  height: auto;
+  height: 300px;
   margin: 20px;
 }
 
@@ -194,6 +194,11 @@ textarea {
 }
 
 /* BOTONES */
+.contBotones {
+  display: flex;
+  justify-content: center;
+}
+
 .botonesForm {
   display: inline;
   width: 150px;
@@ -203,11 +208,11 @@ textarea {
   padding: 5px;
   color: black;
   border-radius: 3px;
+  transition: all 2s;
 }
 .botonesForm:hover {
   background-color: #13B52D;
   color: #fafafa;
-  transition: all 0.3ms;
 }
 
 /* FOOTER */
@@ -286,10 +291,10 @@ footer img {
     flex-direction: column;
   }
   .sucPrin {
-    width: 100%;
+    width: 95%;
   }
   iframe {
-    width: 95%;
+    width: 100%;
   }
   /* FOOTER */
   .pie {
