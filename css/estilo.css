@@ -1,5 +1,6 @@
 /* VARIABLES */
 /* MIXIN */
+/* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 /* RESET */
 * {
@@ -7,21 +8,13 @@
   padding: 0;
 }
 
+/* GENERAL */
 body {
   font-family: "Caveat", cursive;
   font-weight: bold;
   background-image: url(../img/fondo-hoja.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-body header {
-  min-height: 10vh;
-}
-body main {
-  min-height: 80vh;
-}
-body footer {
-  min-height: 10vh;
 }
 
 /* Header */
@@ -109,11 +102,11 @@ h3 {
 
 /* PROMOCIONES */
 .promoCondi {
-  width: 250px;
   height: 500px;
+  margin: 20px;
+  width: 250px;
   box-shadow: 3px 3px grey;
   border: none;
-  margin: 20px;
 }
 
 .promoImg {
@@ -134,11 +127,11 @@ h3 {
 
 /* PRODUCTOS */
 .productos {
-  width: 200px;
-  margin: 10px;
+  margin: 20px;
+  text-align: center;
+  width: 250px;
   box-shadow: 3px 3px grey;
   border: none;
-  text-align: center;
 }
 
 .prodImg {
@@ -346,6 +339,5 @@ footer img {
     object-fit: cover;
   }
 }
-/* MIXIN */
 
 /*# sourceMappingURL=estilo.css.map */

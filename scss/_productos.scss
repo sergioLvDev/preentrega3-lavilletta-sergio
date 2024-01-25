@@ -1,10 +1,8 @@
 /* PRODUCTOS */
 .productos {
-  width: 200px;
-  margin: 10px;
-  box-shadow: 3px 3px $color-sombras;
-  border: none;
+  margin: 20px;
   text-align: center;
+  @include contCard;
 }
 
 .prodImg {
