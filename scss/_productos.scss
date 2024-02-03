@@ -3,12 +3,12 @@
   margin: 20px;
   text-align: center;
   @include contCard;
+  background-color: $color-fondo;
 
   a img {
     width: 20px;
   }
 }
-
 
 .prodImg {
   height: 170px;

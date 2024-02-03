@@ -3,16 +3,19 @@
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 /* GENERAL */
-/* * {
-  border: 3px solid black;
-} */
 body {
   font-family: "Caveat", cursive;
   font-weight: bold;
   background-image: url(../img/fondo-hoja.jpg);
-  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+body h3 {
+  text-align: left;
+  text-decoration: underline;
+  padding: 20px;
+  font-size: 30px;
 }
 
 /* Header */
@@ -65,13 +68,6 @@ a {
 }
 
 /* PORTADA */
-h3 {
-  text-align: left;
-  text-decoration: underline;
-  padding: 20px;
-  font-size: 30px;
-}
-
 /* contenedor padre x 2  */
 .contImg1 {
   width: 50%;
@@ -126,6 +122,7 @@ h3 {
   width: 250px;
   box-shadow: 3px 3px grey;
   border: none;
+  background-color: #33FFAC;
 }
 .productos a img {
   width: 20px;
@@ -180,6 +177,7 @@ label {
 
 input,
 textarea {
+  background-color: #33FFAC;
   display: block;
   width: 500px;
   border: 2px solid black;
@@ -191,8 +189,8 @@ textarea {
 /* LOGO DE WHATSAPP */
 .logwap {
   position: fixed;
-  bottom: 25px;
-  right: 20px;
+  bottom: 15px;
+  right: 10px;
 }
 
 /* BOTONES */
@@ -204,13 +202,15 @@ textarea {
 .botonesForm {
   display: inline;
   width: 150px;
-  background-color: #33FFAC;
+  background-color: #13B52D;
   cursor: pointer;
   font-size: 18px;
   padding: 5px;
   color: black;
   border-radius: 3px;
   transition: all 0.5s;
+  border: none;
+  margin: 5px 5px;
 }
 .botonesForm:hover {
   background-color: #13B52D;

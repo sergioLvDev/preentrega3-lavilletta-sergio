@@ -11,6 +11,7 @@ label {
 
 input,
 textarea {
+  background-color: $color-fondo;
   display: block;
   width: 500px;
   border: 2px solid $color-fuente-primario;

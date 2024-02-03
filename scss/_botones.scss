@@ -7,13 +7,15 @@
 .botonesForm {
   display: inline;
   width: 150px;
-  background-color: $color-fondo;
+  background-color: $color-resaltador;
   cursor: pointer;
   font-size: 18px;
   padding: 5px;
   color: $color-fuente-primario;
   border-radius: 3px;
   transition: all 0.5s;
+  border: none;
+  margin: 5px 5px;
 
   &:hover {
     background-color: $color-resaltador;
