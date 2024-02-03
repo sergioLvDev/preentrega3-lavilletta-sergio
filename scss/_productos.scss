@@ -3,7 +3,12 @@
   margin: 20px;
   text-align: center;
   @include contCard;
+
+  a img {
+    width: 20px;
+  }
 }
+
 
 .prodImg {
   height: 170px;

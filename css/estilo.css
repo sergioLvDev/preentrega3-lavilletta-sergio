@@ -2,17 +2,15 @@
 /* MIXIN */
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
-/* RESET */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /* GENERAL */
+/* * {
+  border: 3px solid black;
+} */
 body {
   font-family: "Caveat", cursive;
   font-weight: bold;
   background-image: url(../img/fondo-hoja.jpg);
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,10 +22,6 @@ body {
 
 .encabezado {
   border-top: 10px solid #13B52D;
-}
-
-.cesta {
-  width: 50px;
 }
 
 h1 {
@@ -133,6 +127,9 @@ h3 {
   box-shadow: 3px 3px grey;
   border: none;
 }
+.productos a img {
+  width: 20px;
+}
 
 .prodImg {
   height: 170px;
@@ -234,6 +231,9 @@ footer {
 footer img {
   width: 50px;
 }
+footer h3 {
+  padding: 5px;
+}
 
 /* MEDIAS QUERIES */
 /* VISTA TABLET */
@@ -315,6 +315,9 @@ footer img {
   .logoSlv {
     align-items: center;
     justify-content: center;
+  }
+  footer img {
+    width: 35px;
   }
 }
 @media (max-width: 480px) {
