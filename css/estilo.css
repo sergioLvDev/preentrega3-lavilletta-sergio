@@ -87,6 +87,7 @@ a {
 .contImg1 p {
   color: black;
   font-size: 30px;
+  font-weight: 300;
   margin: 10px;
 }
 
@@ -108,7 +109,7 @@ a {
 .promoImgp {
   padding: 15px;
   width: 100%;
-  background-color: #33FFAC;
+  background-color: #F3F5D2;
   text-transform: uppercase;
   font-size: 15px;
   border-radius: none;
@@ -122,16 +123,16 @@ a {
   width: 250px;
   box-shadow: 3px 3px grey;
   border: none;
-  background-color: #33FFAC;
+  background-color: #F3F5D2;
 }
 .productos a img {
   width: 20px;
 }
 
 .prodImg {
-  height: 170px;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 5px 5px 0 0;
+  object-fit: contain;
 }
 
 /* SUCURSALES */
@@ -177,7 +178,7 @@ label {
 
 input,
 textarea {
-  background-color: #33FFAC;
+  background-color: #F3F5D2;
   display: block;
   width: 500px;
   border: 2px solid black;
@@ -205,16 +206,17 @@ textarea {
   background-color: #13B52D;
   cursor: pointer;
   font-size: 18px;
-  padding: 5px;
-  color: black;
+  padding: 5px 15px;
+  color: #fafafa;
   border-radius: 3px;
   transition: all 0.5s;
   border: none;
   margin: 5px 5px;
+  font-weight: bold;
 }
 .botonesForm:hover {
   background-color: #13B52D;
-  color: #fafafa;
+  color: black;
 }
 
 /* FOOTER */
