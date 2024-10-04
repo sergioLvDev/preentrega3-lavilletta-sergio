@@ -1,12 +1,14 @@
 /* GENERAL */
 
 body {
+  min-height: 100dvh !important;
   font-family: 'Caveat', cursive;
   font-weight: bold;
   background-image: url(../img/fondo-hoja.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+
 
   h3 {
     text-align: left;
@@ -14,4 +16,5 @@ body {
     padding: 20px;
     font-size: 30px;
   }
+
 }
