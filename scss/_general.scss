@@ -1,19 +1,27 @@
 /* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  min-height: 100dvh !important;
   font-family: 'Caveat', cursive;
   font-weight: bold;
   background-image: url(../img/fondo-hoja.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+
 
 
   h3 {
     text-align: left;
     text-decoration: underline;
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
   }
 

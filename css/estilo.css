@@ -3,29 +3,39 @@
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 /* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  min-height: 100dvh !important;
   font-family: "Caveat", cursive;
   font-weight: bold;
   background-image: url(../img/fondo-hoja.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 body h3 {
   text-align: left;
   text-decoration: underline;
-  padding: 20px;
+  padding: 5px;
   font-size: 30px;
 }
 
 /* Header */
 .logo {
-  width: 120px;
+  width: 80px;
+  margin: 0;
+  padding: 0;
 }
 
 .encabezado {
   border-top: 10px solid #13B52D;
+  padding: 0;
 }
 
 h1 {
@@ -66,6 +76,7 @@ a {
 }
 .subtitulo h2 {
   font-size: 2.5rem;
+  margin: 0;
 }
 
 /* PORTADA */
@@ -80,8 +91,7 @@ a {
 
 .imgCondi {
   width: 100%;
-  height: 600px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* parrafito */
@@ -139,7 +149,6 @@ a {
 /* SUCURSALES */
 .prin {
   display: block;
-  padding: 20px;
 }
 
 .sucPrin {
