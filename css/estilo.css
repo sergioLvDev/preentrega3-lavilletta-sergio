@@ -44,9 +44,15 @@ h1 {
   margin: 0;
 }
 
+.alogo {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 nav ul li {
+  margin: 5px 0 5px 10px;
+  width: 110px;
   list-style: none;
-  margin: 10px;
 }
 
 a {
@@ -90,8 +96,14 @@ a {
 }
 
 .imgCondi {
-  width: 100%;
+  width: auto;
   object-fit: contain;
+  height: 100%;
+  min-height: 100px;
+}
+
+.carousel-item {
+  height: 100%;
 }
 
 /* parrafito */
@@ -251,6 +263,10 @@ footer h3 {
 /* VISTA TABLET */
 @media (max-width: 1023px) {
   /* QUIENES SOMOS */
+  ul {
+    display: flex;
+    align-items: center;
+  }
   .contCarru {
     width: 95vw;
     margin: 5px;
@@ -261,6 +277,15 @@ footer h3 {
   }
   .contImg1 {
     width: 100%;
+  }
+  .imgCondi {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+    min-height: 100px;
+  }
+  .carousel-item {
+    height: 100%;
   }
   /* FOOTER */
   .pie {

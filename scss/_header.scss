@@ -16,9 +16,16 @@ h1 {
   margin: 0;
 }
 
+.alogo {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
 nav ul li {
+  margin: 5px 0 5px 10px;
+  width: 110px;
   list-style: none;
-  margin: 10px;
 }
 
 a {

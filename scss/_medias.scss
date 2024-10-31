@@ -1,7 +1,12 @@
 /* MEDIAS QUERIES */
 /* VISTA TABLET */
 @media (max-width: 1023px) {
+
   /* QUIENES SOMOS */
+  ul {
+    display: flex;
+    align-items: center;
+  }
 
   .contCarru {
     width: 95vw;
@@ -15,6 +20,19 @@
   .contImg1 {
     width: 100%;
   }
+
+  .imgCondi {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+    min-height: 100px;
+  }
+
+  .carousel-item {
+
+    height: 100%;
+  }
+
 
   /* FOOTER */
 
@@ -128,7 +146,6 @@
   .logo {
     width: 60px;
   }
-
 
 
   /* SUBTITULO */
