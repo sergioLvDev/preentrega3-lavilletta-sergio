@@ -116,7 +116,7 @@ a {
 
 /* PROMOCIONES */
 .promoCondi {
-  height: 500px;
+  height: 480px;
   margin: 20px;
   width: 250px;
   box-shadow: 3px 3px 8px rgb(24, 22, 22);
@@ -160,21 +160,31 @@ a {
 
 /* SUCURSALES */
 .prin {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 250px;
+  min-width: 300px;
 }
 
 .sucPrin {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
   font-size: 25px;
   text-align: left;
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 250px;
   margin: 20px;
 }
 
 iframe {
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  max-width: 400px;
+  height: 250px;
   display: inline-block;
 }
 
@@ -212,7 +222,7 @@ textarea {
 /* LOGO DE WHATSAPP */
 .logwap {
   position: fixed;
-  bottom: 15px;
+  bottom: 13px;
   right: 10px;
 }
 
@@ -258,6 +268,9 @@ footer img {
 footer h3 {
   padding: 5px;
 }
+footer .logoRedes {
+  padding-right: 60px;
+}
 
 /* MEDIAS QUERIES */
 /* VISTA TABLET */
@@ -289,9 +302,10 @@ footer h3 {
   }
   /* FOOTER */
   .pie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+  }
+  .redes {
+    display: none;
   }
   .logoSlv {
     align-items: center;
@@ -336,25 +350,15 @@ footer h3 {
   .prin {
     display: flex;
     flex-direction: column;
-  }
-  .sucPrin {
-    width: 95%;
+    height: auto;
   }
   iframe {
     width: 100%;
   }
   /* FOOTER */
-  .pie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .logoSlv {
     align-items: center;
     justify-content: center;
-  }
-  footer img {
-    width: 35px;
   }
 }
 @media (max-width: 480px) {
@@ -377,6 +381,16 @@ footer h3 {
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+  /* FOOTER */
+  .pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .logoRedes {
+    padding-right: 0px;
+    justify-content: center !important;
   }
 }
 
