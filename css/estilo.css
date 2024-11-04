@@ -100,7 +100,7 @@ a {
 .contImg1 p,
 .tituPor {
   color: black;
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 500;
   margin: 10px;
 }
@@ -195,7 +195,7 @@ form {
 label {
   display: block;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 input,
@@ -206,7 +206,7 @@ textarea {
   border: 2px solid black;
   border-radius: 3px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* LOGO DE WHATSAPP */
