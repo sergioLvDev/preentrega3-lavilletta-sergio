@@ -22,9 +22,11 @@
 }
 
 /* parrafito */
-.contImg1 p {
+
+.contImg1 p,
+.tituPor {
   color: $color-fuente-primario;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 38px;
+  font-weight: 500;
   margin: 10px;
 }

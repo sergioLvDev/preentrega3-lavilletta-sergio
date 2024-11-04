@@ -18,19 +18,14 @@ h1 {
 
 
 
-nav ul li {
-  margin: 5px 0 5px 10px;
-  width: 110px;
-  list-style: none;
-}
-
 a {
   @include anclas;
 }
 
 .menuNav a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: solid;
+  margin: 5px 0 5px 10px;
   border-left: 1px solid $color-fuente-primario;
   border-right: 1px solid $color-fuente-primario;
   transition: all 1s;

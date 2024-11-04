@@ -44,12 +44,6 @@ h1 {
   margin: 0;
 }
 
-nav ul li {
-  margin: 5px 0 5px 10px;
-  width: 110px;
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -57,8 +51,9 @@ a {
 }
 
 .menuNav a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: solid;
+  margin: 5px 0 5px 10px;
   border-left: 1px solid black;
   border-right: 1px solid black;
   transition: all 1s;
@@ -102,10 +97,11 @@ a {
 }
 
 /* parrafito */
-.contImg1 p {
+.contImg1 p,
+.tituPor {
   color: black;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 38px;
+  font-weight: 500;
   margin: 10px;
 }
 
@@ -318,6 +314,13 @@ footer .logoRedes {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 992px) {
+  .menuNav a {
+    padding: 0 10px;
+    margin: 10px 0;
+    transition: all 0s;
+  }
+}
 /* vista celu */
 @media (max-width: 767px) {
   /* ENCABEZADO */
@@ -377,6 +380,13 @@ footer .logoRedes {
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+  .contImg1 p,
+  .tituPor {
+    font-size: 30px;
+  }
+  .menuNav a {
+    font-size: 1rem;
   }
   /* FOOTER */
   .pie {
