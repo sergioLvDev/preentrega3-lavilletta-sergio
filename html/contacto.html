@@ -52,18 +52,18 @@
   <main class=" container-fluid">
     <h3>Contacto:</h3>
     <div class="d-flex justify-content-center">
-      <form autocomplete="off">
+      <form name="contactoSerNatural" netlify autocomplete="off">
         <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" />
+        <input type="text" id="Nombre" name="name" required />
 
         <label for="Correo">Correo</label>
-        <input type="email" id="Correo" />
+        <input type="email" id="Correo" name="email" required/>
 
         <label for="Telefono">Telefono</label>
-        <input type="tel" id="Telefono" />
+        <input type="tel" id="Telefono" name="tel" required />
 
         <label for="mensaje">Mensaje</label>
-        <textarea cols="30" rows="6" placeholder="Deje su Comentario" id="mensaje"></textarea>
+        <textarea cols="30" rows="6" placeholder="Deje su Comentario" id="mensaje" name="message" required></textarea>
         <div class="contBotones">
           <input class="botonesForm" type="submit" />
           <input class="botonesForm" type="reset" />
