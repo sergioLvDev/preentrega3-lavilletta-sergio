@@ -15,3 +15,53 @@
   border-radius: 5px 5px 0 0;
   object-fit: contain;
 }
+
+.cardDetalle {
+  position: fixed;
+  /* Posiciona el elemento de manera fija */
+  top: 50%;
+  /* Coloca el elemento en el 50% desde el top */
+  left: 50%;
+  /* Coloca el elemento en el 50% desde la izquierda */
+  transform: translate(-50%, -50%);
+  /* Ajusta para centrar el div, ya que top y left colocan el borde superior izquierdo en el 50% */
+  z-index: 1000;
+  /* Asegura que la tarjeta esté por encima de otros elementos */
+  width: 80%;
+  /* O ajusta el tamaño según tus necesidades */
+  max-width: 700px;
+  /* Ajusta el ancho mßximo para dispositivos mßs grandes */
+  background-color: $color-fondo;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Un poco de sombra para mejorar la visualización */
+
+
+  padding: 20px;
+}
+
+.cardDetalle img {
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  width: 100%;
+  max-width: 270px;
+
+}
+
+.cardDetalle h5 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.cardDetalle p {
+  font-size: 25px;
+}
+
+.btncerrar {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  margin-inline: auto;
+}
