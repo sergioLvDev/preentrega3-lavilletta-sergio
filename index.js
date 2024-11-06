@@ -9,21 +9,21 @@ const arrayStock = [
   {
     id: 2,
     nombre: "Porotos",
-    categoria: "Frutos Secos",
+    categoria: "Legumbres",
     descripcion:
       "Ricos en fibra y proteínas, los porotos ayudan a regular el sistema digestivo, controlar el azúcar en sangre y promover la sensación de saciedad. Son ideales para dietas vegetarianas o veganas.",
   },
   {
     id: 3,
     nombre: "Pimenton",
-    categoria: "Frutos Secos",
+    categoria: "Especias",
     descripcion:
       "Contiene vitamina C y antioxidantes como el betacaroteno, que favorecen la salud inmunológica y la salud ocular. Su consumo también puede ayudar a mejorar la circulación sanguínea.",
   },
   {
     id: 4,
     nombre: "Tomates",
-    categoria: "Frutos Secos",
+    categoria: "Frutas Desecadas",
     descripcion:
       "Son ricos en licopeno, un potente antioxidante que apoya la salud del corazón y protege contra ciertos tipos de cáncer. También son una buena fuente de vitaminas A y C.",
   },
@@ -37,7 +37,7 @@ const arrayStock = [
   {
     id: 6,
     nombre: "Curry",
-    categoria: "Frutos Secos",
+    categoria: "Especias",
     descripcion:
       "Contiene cúrcuma, que tiene propiedades antiinflamatorias y antioxidantes. Además, puede mejorar la digestión, reducir el riesgo de enfermedades crónicas y promover la salud cerebral.",
   },
@@ -51,7 +51,7 @@ const arrayStock = [
   {
     id: 8,
     nombre: "Romero",
-    categoria: "Frutos Secos",
+    categoria: "Especias",
     descripcion:
       "Esta hierba tiene propiedades antioxidantes, antiinflamatorias y digestivas. Además, puede mejorar la circulación sanguínea, aliviar dolores musculares y apoyar la memoria y la concentración.",
   },
