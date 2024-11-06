@@ -391,11 +391,14 @@ footer .logoRedes {
   }
   /* PRODUCTOS */
   .cardDetalle {
-    max-width: 400px;
+    max-width: 450px;
     /* O ajusta el tamaño según tus necesidades */
   }
   .cardDetalle img {
     width: 100%;
+  }
+  .cardDetalle h5 {
+    margin-top: 20px;
   }
   /* SUCURSALES */
   .prin {

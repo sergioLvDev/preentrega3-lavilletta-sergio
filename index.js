@@ -81,9 +81,9 @@ verDetalle.forEach((boton) => {
             <img src="../img/${proyecto.nombre}.jpg"  alt="imgAlt">
           </div>
           <div class="col-md-7">
-            <div class="card-body h-100 d-flex flex-column  justify-content-evenly">
-            <h5 class="card-title fw-bold text-center text-uppercase mb-3 text-2xl">${proyecto.nombre}</h5>
-            <p class="card-text ">${proyecto.categoria}</p>
+            <div class="card-body h-100 p-0 d-flex flex-column  justify-content-evenly">
+            <h5 class="card-title fw-bold text-center text-uppercase mb-2 text-2xl">${proyecto.nombre}</h5>
+           
             <p class="card-text flex-1">${proyecto.descripcion}</p>
               <button class="btncerrar btn btn-success">Cerrar</button>
             </div>
