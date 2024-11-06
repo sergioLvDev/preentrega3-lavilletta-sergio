@@ -77,10 +77,10 @@ verDetalle.forEach((boton) => {
     div.innerHTML = `
       <div class="cardDetalle card mb-3"  >
         <div class="row h-100">
-          <div class="col-md-5">
+          <div class="col-md-5 ">
             <img src="../img/${proyecto.nombre}.jpg"  alt="imgAlt">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 ">
             <div class="card-body h-100 p-0 d-flex flex-column  justify-content-evenly">
             <h5 class="card-title fw-bold text-center text-uppercase mb-2 text-2xl">${proyecto.nombre}</h5>
            

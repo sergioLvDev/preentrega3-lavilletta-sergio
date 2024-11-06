@@ -161,7 +161,7 @@ a {
   /* Ajusta para centrar el div, ya que top y left colocan el borde superior izquierdo en el 50% */
   z-index: 1000;
   /* Asegura que la tarjeta esté por encima de otros elementos */
-  width: 80%;
+  width: 90%;
   /* O ajusta el tamaño según tus necesidades */
   max-width: 700px;
   /* Ajusta el ancho mßximo para dispositivos mßs grandes */
@@ -399,6 +399,9 @@ footer .logoRedes {
   }
   .cardDetalle h5 {
     margin-top: 20px;
+  }
+  .cardDetalle div {
+    padding-inline: 0;
   }
   /* SUCURSALES */
   .prin {
