@@ -113,6 +113,7 @@ a {
   width: 250px;
   box-shadow: 3px 3px 8px rgb(24, 22, 22);
   border: none;
+  width: 250px;
 }
 
 .promoImg {
@@ -139,6 +140,7 @@ a {
   box-shadow: 3px 3px 8px rgb(24, 22, 22);
   border: none;
   background-color: #F3F5D2;
+  width: 250px;
 }
 .productos a img {
   width: 20px;
@@ -389,7 +391,20 @@ footer .logoRedes {
   textarea {
     width: 300px;
   }
+  /* PROMOCIONES */
+  .promoCondi {
+    width: 350px;
+    height: 700px;
+  }
+  .promoImgp {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
   /* PRODUCTOS */
+  .productos {
+    width: 350px;
+  }
   .cardDetalle {
     max-width: 450px;
     /* O ajusta el tamaño según tus necesidades */

@@ -104,7 +104,25 @@
     width: 300px;
   }
 
+  /* PROMOCIONES */
+  .promoCondi {
+    width: 350px;
+    height: 700px;
+  }
+
+  .promoImgp {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+  }
+
   /* PRODUCTOS */
+  .productos {
+
+    width: 350px;
+  }
+
   .cardDetalle {
     max-width: 450px;
     /* O ajusta el tamaño según tus necesidades */
