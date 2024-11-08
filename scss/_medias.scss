@@ -95,9 +95,7 @@
 
   /* BOTONES */
 
-  .botonesForm {
-    width: 100px;
-  }
+
 
   input,
   textarea {
@@ -106,7 +104,7 @@
 
   /* PROMOCIONES */
   .promoCondi {
-    width: 350px;
+    width: 300px;
     height: 700px;
   }
 
@@ -120,26 +118,22 @@
   /* PRODUCTOS */
   .productos {
 
-    width: 350px;
+    width: 300px;
   }
 
   .cardDetalle {
     max-width: 450px;
+
     /* O ajusta el tamaño según tus necesidades */
   }
 
   .cardDetalle img {
-    width: 100%;
+    display: none;
 
   }
 
-  .cardDetalle h5 {
-    margin-top: 20px;
-  }
 
-  .cardDetalle div {
-    padding-inline: 0;
-  }
+
 
   /* SUCURSALES */
 

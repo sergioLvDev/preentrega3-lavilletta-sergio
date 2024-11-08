@@ -83,8 +83,9 @@ verDetalle.forEach((boton) => {
           <div class="col-md-7 ">
             <div class="card-body h-100 p-0 d-flex flex-column  justify-content-evenly">
             <h5 class="card-title fw-bold text-center text-uppercase mb-2 text-2xl">${proyecto.nombre}</h5>
+            <p class="card-text flex-1 mb-0 ">Categoria:  ${proyecto.categoria}</p>
            
-            <p class="card-text flex-1">${proyecto.descripcion}</p>
+            <p class="card-text flex-1">Descripcion: ${proyecto.descripcion}</p>
               <button class="btncerrar btn btn-success">Cerrar</button>
             </div>
           </div>
