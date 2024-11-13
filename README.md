@@ -6,19 +6,27 @@
 
 ## Descripcion
 
-Este es un sitio web de productos nutricionales que está diseñado para ser fácil de usar y ofrecer una experiencia
-navegacion intuitiva, segura y rápida para todos los usuarios.
-Contiene cinco paginas para bien identificadas para cada seccion: Inicio, Promociones, Productos, Sucursales y
-Contacto. En donde se encuentra la informacion para cada una de ellas.
-El sitio es completamente responsive, adaptado a dispositivos moviles y tablets.
+Este es un sitio web de productos nutricionales que está diseñado para ser fácil de usar y ofrecer una experiencia de
+
+navegación intuitiva, segura y rápida para todos los usuarios.
+
+Contiene cinco paginas bien identificadas para cada sección: Inicio, Promociones, Productos, Sucursales y
+
+Contacto. En donde se encuentra toda la información para cada una de ellas.
+
+El sitio es completamente responsive, adaptado a dispositivos móviles y tablets.
 
 ## Technologias Usadas
 
-- HTML: Utilizado para estructurar el contenido de la página web en donde se definen los elementos clave como el Nombre de la pagina, párrafos como subtitutlos y fundamentos, enlaces, imágenes, formularios, y más.
+- HTML: Utilizado para estructurar el contenido de la página web en donde se definen los elementos claves como el Nombre de la página, párrafos, subtítulos, enlaces, imágenes, formularios, y más.
+
 - CSS: Se utiliza para aplicar estilo y formato a los elementos HTML. Con CSS, se controla la disposición, colores, tipografía (Caveat), el fondo que simula una hoja de arbol y otros aspectos visuales del sitio para asegurar que se vea atractivo y profesional.
-- JAVASCRIP se utiliza para hacer el sitio interactivo, manejar eventos, validar formularios, actualizar contenidos sin recargar la página, etc.
-- SASS permite escribir estilos de manera más eficiente, utilizando variables, anidamiento de reglas, mixins, y otras características que hacen que el código sea más limpio y fácil de mantener. Sass se compila a CSS para ser usado en el navegador.
-- BOOtSTRAP proporciona un conjunto de componentes predefinidos como, carrusel, botones, formularios para crear un diseño adaptable, responsivo y moderno.
+
+- JAVASCRIPT: se utiliza para hacer el sitio interactivo, manejar eventos, validar formularios, actualizar contenidos sin recargar la página, etc.
+
+- SASS permite escribir estilos de manera más eficiente, utilizando variables, anidamiento de reglas, mixins, y otras características que hacen que el código sea más limpio y fácil de mantener.
+
+- BOOTSTRAP proporciona un conjunto de componentes predefinidos como, carrusel, botones, formularios para crear un diseño adaptable, responsivo y moderno.
 
 ## Instalacion y Uso
 
@@ -36,10 +44,10 @@ Inicie la aplicación utilizando la extension de VSC `Live Server`
 
 Si deseas contribuir a este proyecto, por favor, crea un fork del repositorio y envíe una solicitud de pull request con tus cambios.
 
-## Badges
+## Licencias
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Authors
+## Autor
 
 - [@sergioLvDev](https://www.github.com/sergioLvDev)
